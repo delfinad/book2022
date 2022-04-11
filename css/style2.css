@@ -1,0 +1,172 @@
+* {margin: 0; padding: 0;}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+	background-color: white;
+	color:blue;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+}
+
+
+header {
+	font-family: 'Montserrat', sans-serif;
+	height: 100px;
+	margin: 1px;
+	border-bottom: 1px solid #707070;
+}
+
+header a:hover {
+	opacity: 0.5;
+}
+
+.logo img{
+	padding: 10px;
+	width: 80px;
+	height: 80px;
+	display: inline-flex;
+	float: left;
+
+}
+
+/* NAV */
+nav ul, nav li {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+}
+
+nav li a {
+	font-size: 20px;
+	color: black;
+	display: inline-block;
+	padding: 10px;
+	border-radius: 5px;
+  	text-decoration: none;
+}
+
+.work, .work2,.work3,.work4,.work5,.work6,.work7,.work8,.work9 {
+	background-color: white;
+	width: 300px;
+	height: 300px;
+	margin: 10px;
+	margin-top: 23.5px;
+	margin-left: 23.5px;
+	display: inline-block;
+	box-sizing: border-box;
+	transition: all 0.3s ease;
+}
+
+.work img,.work2 img,.work3 img,.work4 img,.work5 img,.work6 img,.work7 img,.work8 img,.work9 img {
+	width: 300px;
+	height: 300px;
+	visibility: visible;
+}
+	
+.work a, .work2 a, .work3 a,.work4 a,.work5 a,.work6 a,.work7 a,.work8 a,.work9 a {
+	font-size: 35px;
+	color: #2e353d;
+}
+
+.work h1,.work4 h1 {
+	margin-left: 4vw;
+}
+
+.work3 h1 {
+	margin-left: 2vw;
+}
+
+.work2 h1 {
+	margin-left: 5vw;
+}
+
+.work5 h1 {
+	margin-left: 6vw;
+}
+
+.work7 h1 {
+	margin-left: 5vw;
+}
+
+.work6 h1 {
+	margin-left: 3vw;
+}
+
+.work8 h1 {
+	margin-left: 4.5vw;
+}
+
+.work9 h1 {
+	margin-left: 7vw;
+}
+
+#cuadrado:hover a{
+    opacity: 0.5;
+}
+
+#cuadrado:hover img{
+	opacity: 0.5;
+}
+
+section h1 {
+	font-size: 35px;
+	margin-left: 4%;
+	margin-top: 2%;
+	color: #2e353d;
+}
+
+section p {
+	width: 50%;
+	margin: auto;
+	margin-top: 3%;
+	text-align: justify;
+	color: white;
+	font-size: 15px;
+	padding: 20px;
+	background-color: #2e353d;
+	border-radius: 5px;
+}
+
+section a {
+	text-decoration: none;
+	color: #cf5142;
+}
+
+section a:hover {
+	color: white;
+}
+
+.images{
+	width: 90%;
+	margin: auto;
+	margin-top: 3%;
+}
+
+.images img{
+	width: 100%;
+}
+
+
+.images2{
+	width: 42.8%;
+	margin: auto;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-top: 3%;
+	display: flex;
+}
+
+.images2 img{
+	width: 100%;
+	margin-left: 10%;
+	height: 100%;
+}
+
+.about{
+	background-color: green;
+	width: 50%;
+}

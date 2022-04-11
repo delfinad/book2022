@@ -1,0 +1,90 @@
+* {margin: 0; padding: 0;}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+	background-color: white;
+	color:blue;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+}
+
+header {
+	font-family: 'Montserrat', sans-serif;
+	height: 100px;
+	margin: 1px;
+	border-bottom: 1px solid #707070;
+}
+
+header a:hover {
+	opacity: 0.5;
+}
+
+section .text-card{
+  margin: auto;
+  margin-top: 20vh;
+  width: 500px;
+  height: 200px;
+  border: 1px solid #2e353d;
+}
+
+
+
+.text-card p {
+	font-size: 15px;
+	color:#2e353d;
+	text-align: justify;
+	padding: 15px;
+	padding-top: 0px;
+	padding-left: 50px;
+}
+
+.text-card h1 {
+	font-size: 50px;
+	color:#2e353d;
+	text-align: justify;
+	padding: 15px;
+	padding-bottom: 0px;
+	padding-left: 50px;
+}
+
+.text-card h2 {
+	font-size: 20px;
+	color:#2e353d;
+	text-align: left;
+	padding: 15px;
+	padding-top: 1px;
+	padding-left: 50px;
+}
+
+.logo img{
+	padding: 10px;
+	width: 80px;
+	height: 80px;
+	display: inline-flex;
+	float: left;
+
+}
+
+
+
+
+/* NAV */
+nav ul, nav li {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+}
+
+nav li a {
+	font-size: 20px;
+	color: black;
+	display: inline-block;
+	padding: 10px;
+	border-radius: 5px;
+  	text-decoration: none;
+}
+
